@@ -1,8 +1,8 @@
 {
-  "default": {
-    "command-system": {
-      "baseline": "0.2",
-      "port-version": 0
+    "default": {
+        "command-system": {
+            "baseline": "0.3",
+            "port-version": 0
+        }
     }
-  }
 }
