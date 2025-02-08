@@ -6,6 +6,10 @@ vcpkg_from_git(
     HEAD_REF main
 )
 
-vcpkg_cmake_configure(SOURCE_PATH ${SOURCE_PATH})
+vcpkg_cmake_configure(
+    SOURCE_PATH ${SOURCE_PATH}
+    OPTIONS
+        -DCMAKE_TOOLCHAIN_FILE=${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake
+)
 vcpkg_cmake_install()
 vcpkg_install_copyright("${SOURCE_PATH}/COPYING")
