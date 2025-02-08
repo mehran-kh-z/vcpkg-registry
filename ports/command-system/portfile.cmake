@@ -1,9 +1,7 @@
-vcpkg_from_github(
+vcpkg_from_git(    
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO mehran-kh-z/command-system
+    URL https://github.com/mehran-kh-z/command-system
     REF c215ee4060f6c32510989243ec5f60e9701f75bc
-    SOURCE_PATH "ports/command-system"
-    SHA512 3aaeaf59eab0ef7ec4753be1fad364c52fd14dbb
     HEAD_REF main
 )
 
