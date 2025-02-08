@@ -1,6 +1,6 @@
 {
   "name": "command-system",
-  "version": "0.3",
+  "version": "0.0.1",
   "description": "A simple command system for C++",
   "homepage": "https://evoteam.ir",
   "dependencies": [
