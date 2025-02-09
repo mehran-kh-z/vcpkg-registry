@@ -13,4 +13,5 @@ vcpkg_cmake_configure(
         -DCMAKE_PREFIX_PATH="${CURRENT_INSTALLED_DIR};${QTDIR}/bin"
 )
 vcpkg_cmake_install()
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE.md")
