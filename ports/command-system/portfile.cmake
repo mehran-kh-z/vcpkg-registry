@@ -2,7 +2,7 @@ vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/mehran-kh-z/command-system
     REF 79d18d8c1fc3b53dda6bceab5ca0213ff1a37658
-    SHA256 0
+    SHA256 4125367e82084526bc7a6bd2a8e4cdf05efda318
     HEAD_REF main
 )
 
