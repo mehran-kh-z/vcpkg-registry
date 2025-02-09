@@ -2,7 +2,7 @@
   "default": {
     "command-system": {
       "baseline": "0.0.5",
-      "port-version": 2
+      "port-version": 0
     }
   }
 }
