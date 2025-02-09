@@ -1,9 +1,10 @@
 {
   "name": "command-system",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple command system for C++",
   "homepage": "https://evoteam.ir",
   "dependencies": [
+    "qt5-base",
     {
       "name": "vcpkg-cmake",
       "host": true
