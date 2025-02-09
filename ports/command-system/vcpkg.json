@@ -1,7 +1,7 @@
 {
   "name": "command-system",
   "version": "0.0.7",
-  "description": "A simple command system for C++",
+  "description": "A command system for C++.",
   "homepage": "https://evoteam.ir",
   "dependencies": [
     "qt5-base",
